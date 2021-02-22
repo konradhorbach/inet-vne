@@ -14,3 +14,5 @@ Set up the incomgin virtual edges by defining *addresses-in*, *ports-in* and *lo
 Set up the outgoing virtual edges by defining *addresses-out* and *ports-out* of the corresponding virtual node. Those are strings where a space defines a new item. They must have the same number of items. The position of the items in these strings refer to the same virtual edge.
 
 Declare a virtual node as source (*is-source = true*) and it generates packets after each *packet-interal*.
+
+Look at the example in *omnetpp.ini*!
